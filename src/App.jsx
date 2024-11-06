@@ -72,7 +72,7 @@ function App() {
             borderRadius: `50px`,
           }}
         >
-          Convert {fromCurrency} to {toCurrency}
+          Convert {fromCurrency.toUpperCase()} to {toCurrency.toUpperCase()}
         </button>
       </div>
     </>
